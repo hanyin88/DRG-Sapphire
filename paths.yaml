@@ -1,0 +1,21 @@
+# below are the data files following steps from DRG-LLaMA
+drg_34_path: data/DRG_34.csv
+id2label_path: data/id2label.csv
+train_set_path: data/all_train.csv
+test_set_path: data/all_test.csv
+
+# below are the data files genearted by DRG-Sapphire
+test_merged_csv_path: data/test_merged.csv
+train_merged_csv_path: data/train_merged.csv
+all_train_dataset_path: data/all_train_dataset
+sft_cold_start_dataset_path: data/sft_cold_start_dataset
+DRG_small_dataset_path: data/DRG_small_dataset
+all_test_dataset_path: data/all_test_dataset
+
+all_train_cot_csv_path: data/all_train_cot.csv
+split_training_output_dir: data/split_training_all
+splits:
+  - [50, 50]
+  - [75, 25]
+
+pretraining_corpora_path: data/ms_drg_corpora.csv
