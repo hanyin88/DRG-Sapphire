@@ -18,4 +18,4 @@ splits:
   - [50, 50]
   - [75, 25]
 
-pretraining_corpora_path: data/ms_drg_corpora.csv
+ms_drg_corpora_path: data/ms_drg_corpora.csv
